@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  asd.swift
 //  AnJooNaYo
 //
 //  Created by 세령 on 18/04/2019.
@@ -8,8 +8,6 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class asd: NSObject {
 
 }
-

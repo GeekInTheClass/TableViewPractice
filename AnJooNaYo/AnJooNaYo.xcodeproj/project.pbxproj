@@ -15,6 +15,7 @@
 		F6A3BEEC22685F5500248CCC /* AnJooNaYoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3BEEB22685F5500248CCC /* AnJooNaYoTests.swift */; };
 		F6A3BEF722685F5500248CCC /* AnJooNaYoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3BEF622685F5500248CCC /* AnJooNaYoUITests.swift */; };
 		F6A3BF0522685F9100248CCC /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3BF0422685F9100248CCC /* DataCenter.swift */; };
+		F6A3BF0D2268722600248CCC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3BF0C2268722600248CCC /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F6A3BEF622685F5500248CCC /* AnJooNaYoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnJooNaYoUITests.swift; sourceTree = "<group>"; };
 		F6A3BEF822685F5500248CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6A3BF0422685F9100248CCC /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
+		F6A3BF0C2268722600248CCC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,6 @@
 		F6A3BECA22685F5300248CCC = {
 			isa = PBXGroup;
 			children = (
-				F6A3BF0422685F9100248CCC /* DataCenter.swift */,
 				F6A3BED522685F5300248CCC /* AnJooNaYo */,
 				F6A3BEEA22685F5500248CCC /* AnJooNaYoTests */,
 				F6A3BEF522685F5500248CCC /* AnJooNaYoUITests */,
@@ -100,7 +101,9 @@
 		F6A3BED522685F5300248CCC /* AnJooNaYo */ = {
 			isa = PBXGroup;
 			children = (
+				F6A3BF0422685F9100248CCC /* DataCenter.swift */,
 				F6A3BED622685F5300248CCC /* AppDelegate.swift */,
+				F6A3BF0C2268722600248CCC /* TableViewController.swift */,
 				F6A3BED822685F5300248CCC /* ViewController.swift */,
 				F6A3BEDA22685F5300248CCC /* Main.storyboard */,
 				F6A3BEDD22685F5500248CCC /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				F6A3BF0522685F9100248CCC /* DataCenter.swift in Sources */,
 				F6A3BED922685F5300248CCC /* ViewController.swift in Sources */,
 				F6A3BED722685F5300248CCC /* AppDelegate.swift in Sources */,
+				F6A3BF0D2268722600248CCC /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
