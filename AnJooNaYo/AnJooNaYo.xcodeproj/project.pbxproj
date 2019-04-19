@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED8AD1B822687C0400B8376C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AD1B722687C0400B8376C /* DetailViewController.swift */; };
 		F6A3BED722685F5300248CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3BED622685F5300248CCC /* AppDelegate.swift */; };
 		F6A3BED922685F5300248CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3BED822685F5300248CCC /* ViewController.swift */; };
 		F6A3BEDC22685F5300248CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A3BEDA22685F5300248CCC /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED8AD1B722687C0400B8376C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F6A3BED322685F5300248CCC /* AnJooNaYo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnJooNaYo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A3BED622685F5300248CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6A3BED822685F5300248CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F6A3BF0422685F9100248CCC /* DataCenter.swift */,
+				ED8AD1B722687C0400B8376C /* DetailViewController.swift */,
 				F6A3BED622685F5300248CCC /* AppDelegate.swift */,
 				F6A3BF0C2268722600248CCC /* TableViewController.swift */,
 				F6A3BED822685F5300248CCC /* ViewController.swift */,
@@ -264,6 +267,7 @@
 			files = (
 				F6A3BF0522685F9100248CCC /* DataCenter.swift in Sources */,
 				F6A3BED922685F5300248CCC /* ViewController.swift in Sources */,
+				ED8AD1B822687C0400B8376C /* DetailViewController.swift in Sources */,
 				F6A3BED722685F5300248CCC /* AppDelegate.swift in Sources */,
 				F6A3BF0D2268722600248CCC /* TableViewController.swift in Sources */,
 			);
